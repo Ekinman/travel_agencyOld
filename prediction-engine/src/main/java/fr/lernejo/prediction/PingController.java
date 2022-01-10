@@ -18,7 +18,7 @@ public class PingController {
     @GetMapping(path = "/ping")
     String ping() {
         return "OK";
-    }
+    } // changes
 
 
 }
