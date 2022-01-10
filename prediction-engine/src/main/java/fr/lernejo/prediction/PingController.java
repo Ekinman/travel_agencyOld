@@ -15,7 +15,7 @@ public class PingController {
 
 
 
-    @GetMapping(path = "/api/ping")
+    @GetMapping(path = "/ping")
     String ping() {
         return "OK";
     }
